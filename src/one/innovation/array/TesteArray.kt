@@ -9,6 +9,22 @@ fun main() {
     values[3]= 2
     values[4]= 4
 
-    for (valor in values)
-    println(valor)
+    for (valor in values) {
+        println(valor)
+    }
+    println("-------1----------")
+
+    values.forEach {
+        println(it)
+    }
+    values.forEach {valor ->
+        println(valor)
+    }
+
+    println("--------2---------")
+    values.sort()
+ for (index in values.indices){
+     println(values[index])
+ }
+    println("--------3---------"+ values.size)
 }
