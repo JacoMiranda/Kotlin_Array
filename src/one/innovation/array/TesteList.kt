@@ -22,7 +22,7 @@ fun main() {
             .groupBy { it.tipoContrato }//agrupa por tipo de contrataçãoem ordem decrescente
             .forEach{println(it)}//imprime o resultado obtido
 
-    funcionarios.
+
 }
 
 data class Funcionario (
